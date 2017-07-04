@@ -1,0 +1,18 @@
+<h3>Invitations</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>email</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |invitation|}}
+      <tr>
+        <td>{{invitation.id}}</td>
+        <td>{{invitation.email}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{outlet}}

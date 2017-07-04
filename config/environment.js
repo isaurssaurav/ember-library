@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: 'AIzaSyD6UYemwROv4UBkdITE048tB0ZEsgF-N5M',
+      authDomain: 'library-ember-7cdd4.firebaseapp.com',
+      databaseURL: 'https://library-ember-7cdd4.firebaseio.com',
+      storageBucket: 'library-ember-7cdd4.appspot.com',
+    },
     modulePrefix: 'library-app',
     environment: environment,
     rootURL: '/',
@@ -25,10 +31,10 @@ module.exports = function(environment) {
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+     ENV.APP.LOG_ACTIVE_GENERATION = true;
+     ENV.APP.LOG_TRANSITIONS = true;
+     ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+     ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
   if (environment === 'test') {

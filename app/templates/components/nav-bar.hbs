@@ -1,0 +1,22 @@
+<div class="blog-masthead">
+  <div class="container">
+    <nav class="nav blog-nav">
+      {{#link-to 'index' }}<a class="nav-link active" href="#">Home</a>{{/link-to}}
+      {{#link-to 'libraries.index'}}<a class="nav-link" href="#">libraries</a>{{/link-to}}
+      {{#link-to 'about'}}<a class="nav-link" href="#">About</a>{{/link-to}}
+      {{#link-to 'contact'}}<a class="nav-link" href="#">Contact</a>{{/link-to}}
+
+      <ul class="nav blog-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" style="color:#000 !important" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Admin<span class="caret" ></span>
+          </a>
+          <ul class="dropdown-menu">
+          {{#link-to 'admin.invitations' tagName="li"}}<a href="">Invitations</a>{{/link-to}}
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+{{yield}}
