@@ -28,12 +28,14 @@ You will need the following things properly installed on your computer.
 
 ## Firebase Configuration
 Go to config/enviroment.js and change a configuration of firbase
+```
 firebase: {
       apiKey: 'your apikey',
       authDomain: 'authDomain',
       databaseURL: 'your databaseUrl',
       storageBucket: 'storagebucket',
     },
+```
 
 ### Code Generators
 
