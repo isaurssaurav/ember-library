@@ -3,10 +3,10 @@
 module.exports = function(environment) {
   var ENV = {
     firebase: {
-      apiKey: 'AIzaSyD6UYemwROv4UBkdITE048tB0ZEsgF-N5M',
-      authDomain: 'library-ember-7cdd4.firebaseapp.com',
-      databaseURL: 'https://library-ember-7cdd4.firebaseio.com',
-      storageBucket: 'library-ember-7cdd4.appspot.com',
+      apiKey: 'your apikey',
+      authDomain: 'authDomain',
+      databaseURL: 'your databaseUrl',
+      storageBucket: 'storagebucket',
     },
     modulePrefix: 'library-app',
     environment: environment,
