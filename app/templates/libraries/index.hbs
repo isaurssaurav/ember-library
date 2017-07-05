@@ -1,7 +1,8 @@
 <h3>List</h3>
+{{input value=search class="form-control" placeholder="Search a keyword"}}
 <hr>
 <div class="row">
-{{#each model as |library|}}
+{{#each filteredList as |library|}}
   <div class="col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
